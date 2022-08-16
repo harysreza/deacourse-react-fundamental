@@ -47,8 +47,8 @@ const AlbumCollection = () => {
                   className="d-block w-100"
                   src={data.url}
                   alt="First slide"
-                  height={450}
-                  width={450}
+                  height={350}
+                  width={200}
                   style={{ borderRadius: "0.5rem" }}
                 />
                 <Carousel.Caption>
@@ -58,10 +58,10 @@ const AlbumCollection = () => {
             );
           })
         ) : (
-          <h1 className="text-center py-5">CLICK “+” TO LOAD PHOTO</h1>
+          <h4 className="text-center py-5">CLICK “+” TO LOAD PHOTO</h4>
         )}
       </Carousel>
-      <ButtonGroup className="d-flex justify-content-center align-items-center mt-2">
+      <ButtonGroup className="d-flex justify-content-center align-items-center mt-2 pb-5">
         <button className="btn btn-dark" onClick={() => handleLimit("+")}>
           +
         </button>

@@ -8,7 +8,6 @@ const Navigation = () => {
   const NavStyle = {
     color: "#E1D9D1",
     textDecoration: "none",
-    fontSize: "1rem",
     padding: "1rem 0 1rem",
     margin: "0 1rem",
   };

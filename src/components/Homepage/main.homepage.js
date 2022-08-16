@@ -9,13 +9,13 @@ const Homepage = () => {
         <Row>
           <Col>
             <div className="p-5">
-              <h1 className="display-4 text-black" style={{ fontSize: "4rem" }}>
+              <h1 className="display-4 text-black">
                 “I am always doing that which I cannot do, in order that I may
                 learn how to do it.”
               </h1>
               <p
                 className="lead text-end mt-5 text-black"
-                style={{ fontSize: "2rem", fontWeight: "500" }}
+                style={{ fontWeight: "500" }}
               >
                 - Pablo Picasso
               </p>

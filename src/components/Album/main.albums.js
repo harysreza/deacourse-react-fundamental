@@ -5,8 +5,8 @@ import AlbumCollection from "./collection.albums";
 const Albums = (props) => {
   return (
     <React.Fragment>
-      <Container className="mt-2">
-        <h1 className="mt-4 mb-4">Photos API</h1>
+      <Container>
+        <h3 className="mt-4 mb-4">Photos API</h3>
         <AlbumCollection />
       </Container>
     </React.Fragment>

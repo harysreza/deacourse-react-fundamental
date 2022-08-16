@@ -48,7 +48,7 @@ const PostCollection = () => {
             return (
               <Col key={i}>
                 <Card
-                  style={{ width: "20rem", minHeight: "11rem" }}
+                  style={{ minWidth: "19rem", minHeight: "11rem" }}
                   className="m-3 shadow bg-dark"
                 >
                   <Card.Body className="d-flex flex-column text-white">

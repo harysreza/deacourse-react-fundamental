@@ -5,8 +5,8 @@ import PostCollection from "./collection.posts";
 const Posts = () => {
   return (
     <React.Fragment>
-      <Container className="mt-2">
-        <h1 className="mt-4 mb-4">Posts API</h1>
+      <Container>
+        <h3 className="mt-4 mb-4">Posts API</h3>
         <PostCollection />
       </Container>
     </React.Fragment>
