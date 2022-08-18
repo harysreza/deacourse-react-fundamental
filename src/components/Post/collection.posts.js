@@ -81,7 +81,7 @@ const PostCollection = () => {
         <Button
           variant="dark"
           onClick={handleLimit}
-          style={{ fontSize: "1.5rem" }}
+          style={{ fontSize: "1rem" }}
         >
           Load More Post
         </Button>
