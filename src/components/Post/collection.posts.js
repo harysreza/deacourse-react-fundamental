@@ -78,11 +78,7 @@ const PostCollection = () => {
         body={tempData[2]}
       />
       <div className="d-flex justify-content-center mt-5 pb-5">
-        <Button
-          variant="dark"
-          onClick={handleLimit}
-          style={{ fontSize: "1rem" }}
-        >
+        <Button variant="dark" onClick={handleLimit}>
           Load More Post
         </Button>
       </div>
