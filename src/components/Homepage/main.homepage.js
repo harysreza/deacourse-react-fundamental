@@ -7,7 +7,7 @@ const Homepage = () => {
     <React.Fragment>
       <Container>
         <Container
-          className="mt-4 p-5 rounded"
+          className="mt-4 p-5 rounded mb-4"
           style={{
             backgroundImage: `linear-gradient(to right bottom, rgba(23, 74, 144, 0.8), rgba(142, 226, 178, 0.6)), url(${Background})`,
             backgroundPosition: "center",
