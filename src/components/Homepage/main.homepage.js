@@ -1,35 +1,20 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import Gambar from "../../assets/images.jpg";
+import { Container } from "react-bootstrap";
 
 const Homepage = () => {
   return (
     <React.Fragment>
-      <Container className="mt-5 pb-5">
-        <Row>
-          <Col>
-            <div className="p-5">
-              <h1 className="display-4 text-black">
-                “I am always doing that which I cannot do, in order that I may
-                learn how to do it.”
-              </h1>
-              <p
-                className="lead text-end mt-5 text-black"
-                style={{ fontWeight: "500" }}
-              >
-                - Pablo Picasso
-              </p>
-            </div>
-          </Col>
-          <Col>
-            <img
-              src={Gambar}
-              className="img-fluid"
-              alt="Responsive"
-              style={{ width: "500px" }}
-            />
-          </Col>
-        </Row>
+      <Container className="mt-5 px-5">
+        <h1 className="display-4 text-black">
+          “I am always doing that which I cannot do, in order that I may learn
+          how to do it.”
+        </h1>
+        <p
+          className="lead text-end mt-5 text-black"
+          style={{ fontWeight: "500" }}
+        >
+          - Pablo Picasso
+        </p>
       </Container>
     </React.Fragment>
   );

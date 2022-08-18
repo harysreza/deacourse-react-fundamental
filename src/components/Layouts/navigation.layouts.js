@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 const Navigation = () => {
   const location = useLocation();
 
-  const NavStyle = {
+  const NavItemStyle = {
     color: "#E1D9D1",
     textDecoration: "none",
     padding: "1rem 0 1rem",
@@ -14,7 +14,10 @@ const Navigation = () => {
 
   const active = {
     color: "#fff",
-    borderBottom: "2px solid #fff",
+    // borderBottom: "2px solid #fff",
+    textDecoration: "underline",
+    textDecorationThickness: "2px",
+    textUnderlineOffset: "1rem",
   };
 
   return (
@@ -25,11 +28,11 @@ const Navigation = () => {
           style={
             location.pathname === "/"
               ? {
-                  ...NavStyle,
+                  ...NavItemStyle,
                   ...active,
-                  borderBottom: "none",
+                  textDecoration: "none",
                 }
-              : { ...NavStyle }
+              : { ...NavItemStyle }
           }
         >
           <span style={{ fontSize: "1rem" }}>REACT FUNDAMENTAL</span>
@@ -42,10 +45,10 @@ const Navigation = () => {
               style={
                 location.pathname === "/albums"
                   ? {
-                      ...NavStyle,
+                      ...NavItemStyle,
                       ...active,
                     }
-                  : { ...NavStyle }
+                  : { ...NavItemStyle }
               }
             >
               Albums
@@ -54,8 +57,8 @@ const Navigation = () => {
               to="/posts"
               style={
                 location.pathname === "/posts"
-                  ? { ...NavStyle, ...active }
-                  : { ...NavStyle }
+                  ? { ...NavItemStyle, ...active }
+                  : { ...NavItemStyle }
               }
             >
               Posts
